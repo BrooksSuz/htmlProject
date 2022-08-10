@@ -18,13 +18,17 @@ body {
 .odin-container {
   display: flex;
   justify-content: center;
+  align-items: center;
   background-image: url('leaves.jpg');
   width: 40vw;
   height: 100vh;
 }
 
 header {
+  width: 100%;
+  background-color: hsla(0, 0%, 16%, 0.6);
   display: flex;
+  justify-content: center;
   align-items: center;
   font-size: xx-large;
 }
@@ -35,15 +39,18 @@ img {
 }
 
 .content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 60vw;
   height: 100vh;
 }
 
-/* form {
+form {
   display: flex;
 }
 
 form>div {
   display: flex;
   flex-direction: column;
-} */
+}
