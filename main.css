@@ -11,8 +11,6 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: black;
-  color: white;
 }
 
 .odin-container {
@@ -31,6 +29,7 @@ header {
   justify-content: center;
   align-items: center;
   font-size: xx-large;
+  color: white;
 }
 
 img {
@@ -39,6 +38,7 @@ img {
 }
 
 .content-container {
+  margin-left: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -46,11 +46,39 @@ img {
   height: 100vh;
 }
 
-form {
-  display: flex;
+.content-container>div {
+  border-radius: 5px;
+  margin-right: 10px;
+  background-color: hsla(0, 0%, 16%, 0.03);
+  max-width: 30vw;
 }
 
 form>div {
+  border-radius: 5px;
+  display: flex;
+  gap: 10px;
+}
+
+form>div>div {
   display: flex;
   flex-direction: column;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: dodgerblue;
+  border: 1px solid #ddd;
+  color: white;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: royalblue;
+}
+
+p {
+  border-radius: 5px;
+  background-color: hsla(0, 0%, 16%, 0.03);
+  max-width: 30vw;
 }
