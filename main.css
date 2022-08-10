@@ -6,16 +6,44 @@ html {
 }
 
 body {
+  margin: 0;
+  height: 100vh;
   display: flex;
+  justify-content: space-around;
+  align-items: center;
   background-color: black;
   color: white;
 }
 
-form {
+.odin-container {
+  display: flex;
+  justify-content: center;
+  background-image: url('leaves.jpg');
+  width: 40vw;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  font-size: xx-large;
+}
+
+img {
+  max-width: 5rem;
+  height: auto;
+}
+
+.content-container {
+  width: 60vw;
+  height: 100vh;
+}
+
+/* form {
   display: flex;
 }
 
 form>div {
   display: flex;
   flex-direction: column;
-}
+} */
